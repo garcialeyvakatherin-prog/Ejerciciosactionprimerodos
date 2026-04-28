@@ -1,0 +1,8 @@
+name: hola a todos
+on: [ push ]
+jobs:
+saludar:
+runs -on: ubuntu-latest
+steps:
+  - name: muestra el mensaje al grupo de 1-2
+  run: echo "Hola a todos"
